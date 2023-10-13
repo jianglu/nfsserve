@@ -32,6 +32,7 @@ async-trait = "0.1.9"
 smallvec = "1.10.0"
 intaglio = "1.6"
 filetime = "0.2"
+pico-args = "0.5.0"
 
 [features]
 strict = []

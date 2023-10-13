@@ -1,7 +1,7 @@
 use nfsserve::demofs::DemoFS;
 use nfsserve::tcp::*;
 
-const HOSTPORT: u32 = 11111;
+const HOSTPORT: u32 = 12000;
 #[tokio::main]
 async fn main() {
     tracing_subscriber::fmt()
